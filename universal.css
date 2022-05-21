@@ -6,4 +6,23 @@
     --color-Starcyan: #0dd;
     --color-Mirrorgray: #aaa;
     --color-Mirrorange: #fb7;
+
+    --font-gigantic: 72px;
+    --font-big: 36px;
+    --font-mediocre: 24px;
+    --font-small: 12px;
+    --font-tiny: 6px;
+
+    --weight-bold: 700;
+    --weight-semibold: 600;
+    --weight-mediocre: 400;
+    --weight-antibold: 100;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h3 {
+    font-size: font-1
 }
