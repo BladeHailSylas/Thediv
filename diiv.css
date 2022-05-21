@@ -57,11 +57,14 @@ iframe {
     display: inline-block;
     border-radius: 0px 15px 5px 0px;
     width: 72%;
-    height: 4.5%;
+    height: 13.5%;
     position: fixed;
     right: 0.01%;
     bottom: 0.02%;
     overflow: hidden;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .navigator:hover {
@@ -69,17 +72,25 @@ iframe {
     background-color: rgba(240, 248, 255, 1);
 }
 
-.navigator>a {
+.navigator>* {
     margin: 6px 12px;
+    margin-top: 3.5%;
     display: inline-block;
     border-bottom: 0.25px solid white;
     left: 5px;
     color: rgba(200, 200, 200, 0.25);
     text-decoration: none;
+    filter: opacity(0.25);
 }
 
-.navigator:hover>a {
+.navigator>a:hover {
+    color: aliceblue;
+    background-color: rgba(40, 40, 200, 0.5);
+}
+
+.navigator:hover>* {
     color: rgba(160, 160, 160, 1);
+    filter: opacity(1);
 }
 
 .sided {

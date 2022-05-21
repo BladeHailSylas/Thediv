@@ -23,7 +23,7 @@ function afktester() {
     const testint = 1;
     var correction = 0;
     if (passed == 0) {
-        alert("사용자 검사입니다. 다음에 나올 알파벳을 대문자 그대로 작성해 주십시오.")
+        alert("Easter Egg Activated! Press the capital alphabet that is displayed on the screen.")
         for (var v = 0; v <= Math.floor(Math.random() * 7 + 3); v++) {
             var ranalp = alpha[Math.floor(Math.random() * 26)];
             var ansalp = prompt(ranalp);
@@ -31,12 +31,12 @@ function afktester() {
                 correction++;
         }
         if (correction < v - 1) {
-            alert("다시 시도하십시오.");
+            alert("Haha, gotcha!");
             afktester();
         }
         else {
             passed = 1;
-            alert("인증되셨습니다. 협조해 주셔서 감사합니다.");
+            alert("Perfect!");
         }
     }
     else { alert("이용 가능 시간대가 아닙니다."); }

@@ -2,7 +2,7 @@
 <html>
 
 <link rel="stylesheet" href="diiv.css">
-<link rel="stylesheet" href="universal.css">
+<script src="diiv.js"></script>
 
 <head>
     <title>The Division</title>
@@ -13,20 +13,22 @@
 <body>
     <div class="theworld">
         <div class="linear">
-            <img src="parousia.png" width="50px">
+            <img src="parousia.png" width="50px" onclick="afktester()">
         </div>
         <div class="body">
             <header>
                 <div class="headon">
-                    <h1 class="sticky" class="f_mid">Header</h1>
+                    <h1 class="sticky" class="f_mid">Hi there!</h1>
                     <div class="headbelt"></div>
                 </div>
             </header>
             <nav>
                 <div class="navigator">
-                    <a href="#einz">Who?</a>
+                    <p>Fredrick Jeong's</p>
+                    <a href="#einz">Infos</a>
                     <a href="#zwei">Skills</a>
                     <a href="#drei">Wants</a>
+                    <img src="parousia.png" width="50px" id="content_R" onclick="alert('Boo!')">
                 </div>
             </nav>
             <section>
@@ -157,11 +159,13 @@
                             dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                 </article>
+                <hr>
+                <p>The copyrights for this website is owned by Fredrick Jeong. Copying website is not allowed.</p>
             </section>
         </div>
         <aside>
             <div class="sided">
-                <h1 class="f_mid">Sided</h1>
+                <h1 class="f_mid">Something</h1>
                 <div class="sidebar"></div>
                 <h3>Lorem</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel velit rhoncus, vulputate risus vel,
