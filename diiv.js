@@ -23,7 +23,6 @@ function afktester() {
     const testint = 1;
     var correction = 0;
     if (passed == 0) {
-        alert("Easter Egg Activated! Press the capital alphabet that is displayed on the screen.")
         for (var v = 0; v <= Math.floor(Math.random() * 7 + 3); v++) {
             var ranalp = alpha[Math.floor(Math.random() * 26)];
             var ansalp = prompt(ranalp);
@@ -31,12 +30,10 @@ function afktester() {
                 correction++;
         }
         if (correction < v - 1) {
-            alert("Haha, gotcha!");
             afktester();
         }
         else {
             passed = 1;
-            alert("Perfect!");
         }
     }
     else { alert("이용 가능 시간대가 아닙니다."); }

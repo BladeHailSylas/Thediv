@@ -265,3 +265,18 @@ iframe {
 h3 {
     font-size: font-1;
 }
+
+ul {
+    list-style-position: inside;
+    list-style-type: none;
+}
+
+.conbox {
+    position: relative;
+    left: 37%;
+    display: inline-block;
+    border: 4px solid black;
+    color: darkblue;
+    text-emphasis: inherit;
+    border-radius: 2.5px 5px 5px 10px;
+}

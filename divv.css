@@ -1,0 +1,73 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px;
+}
+
+.citadel {
+    position: relative;
+    background: url(BG2.png);
+    color: #004;
+}
+
+
+.headbelt {
+    background-color: blueviolet;
+    height: 80px;
+    position: relative;
+}
+
+.citadel>* {
+    margin: 10px;
+}
+
+.inspirationer {
+    display: block;
+    position: relative;
+    margin: 0px;
+    top: 20%;
+}
+
+.F_mid {
+    text-align: center;
+}
+
+.skillset>* {
+    display: inline-block;
+    font-size: 1.2em;
+}
+
+.bar {
+    width: 200px;
+    border: 4px solid black;
+    border-radius: 4px;
+}
+
+.bar>* {
+    margin: 0px;
+    position: relative;
+    border: 4px;
+    height: 12px;
+    background: blue;
+}
+
+.barrage_0 {
+    width: 170px;
+}
+
+.barrage_1 {
+    width: 150px;
+}
+
+.barrage_2 {
+    width: 140px;
+}
+
+.barrage_3 {
+    width: 30px;
+}
+
+.introducer {
+    display: inline-block;
+    text-align: center;
+    max-width: 200px;
+}
